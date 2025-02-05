@@ -10,7 +10,7 @@ avg_1 = sum(firsts[1]) / len(firsts[1])
 avg_2 = sum(firsts[2]) / len(firsts[2])
 avg_3 = sum(firsts[3]) / len(firsts[3])
 avg_4 = sum(firsts[4]) / len(firsts[4])
-avg_avg = (avg_0 + avg_1 + avg_2 + avg_3 + avg_4) / len(firsts)
+avg_avg = round((avg_0 + avg_1 + avg_2 + avg_3 + avg_4) / len(firsts),2)
 print('전체 로또 번호의 평균은', avg_avg, '입니다.')
 # max값 구하기
 max_0 = max(firsts[0])
