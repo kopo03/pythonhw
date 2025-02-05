@@ -1,0 +1,61 @@
+# 홀/짝 구하기
+firsts = [[5, 7, 12, 20, 25, 26], # 1번
+          [30, 31, 34, 39, 41, 45], # 2번
+          [10, 16, 19, 27, 37, 38], # 3번
+          [4, 8, 22, 26, 32, 38], # 4번
+          [1, 9, 10, 13, 35, 44]] # 5번
+
+even = []
+odd = []
+
+for i in range(1, 46):
+  if i in firsts[0]:
+    if i % 2 == 0:
+      even.append(i)
+    else:
+      odd.append(i)
+print('1번 로또의 짝수 :', even, '홀수 :', odd)
+
+even = []
+odd = []
+
+for i in range(1, 46):
+  if i in firsts[1]:
+    if i % 2 == 0:
+      even.append(i)
+    else:
+      odd.append(i)
+print('2번 로또의 짝수 :', even, '홀수 :', odd)
+
+even = []
+odd = []
+
+for i in range(1, 46):
+  if i in firsts[2]:
+    if i % 2 == 0:
+      even.append(i)
+    else:
+      odd.append(i)
+print('3번 로또의 짝수 :', even, '홀수 :', odd)
+
+even = []
+odd = []
+
+for i in range(1, 46):
+  if i in firsts[3]:
+    if i % 2 == 0:
+      even.append(i)
+    else:
+      odd.append(i)
+print('4번 로또의 짝수 :', even, '홀수 :', odd)
+
+even = []
+odd = []
+
+for i in range(1, 46):
+  if i in firsts[4]:
+    if i % 2 == 0:
+      even.append(i)
+    else:
+      odd.append(i)
+print('5번 로또의 짝수 :', even, '홀수 :', odd)
