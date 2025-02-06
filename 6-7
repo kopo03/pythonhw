@@ -1,7 +1,7 @@
 mask = np.array([0, 1, 1, 0], dtype = bool)
 print(mask)
 
-data = np.random.randn(4,2)
+data = np.random.randn(4, 2)
 print('\ndata 출력\n', data)
 
 print('\n마스킹된 데이터 출력\n', data[mask])
