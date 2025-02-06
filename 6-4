@@ -1,0 +1,10 @@
+arr = np.array([[0, 1, 2], [3, 4, 5]])
+
+print('type(arr):', type(arr))
+print('arr.ndim:', arr.ndim)
+print('arr.dtype:', arr.dtype)
+print('arr.itemsize:', arr.itemsize)
+print('arr.size:', arr.size)
+print('arr.nbytes:', arr.nbytes)
+print('arr.T:\n', arr.T)
+print('arr.shape:', arr.shape)
