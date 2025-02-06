@@ -1,0 +1,5 @@
+a = np.array([1, 2], dtype = np.float64)
+print(a.dtype)
+
+a_i8 = a.astype(np.int8)
+print(a_i8.dtype)
