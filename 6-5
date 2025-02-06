@@ -1,0 +1,10 @@
+a = np.arange(8)
+print('a\n', a)
+
+a.shape = (2,4)
+print('shape\n', a)
+
+print('flatten\n', a.flatten())
+
+a.resize((4,2))
+print('resize\n', a)
