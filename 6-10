@@ -1,0 +1,6 @@
+a = np.arange(6)
+c = a.copy()
+
+c[0] = 20
+print('A:', a)
+print('C:', c)
